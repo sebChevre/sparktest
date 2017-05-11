@@ -1,1 +1,12 @@
 # Created by .ignore support plugin (hsz.mobi)
+.idea/compiler.xml
+.idea/copyright/
+.idea/libraries/
+.idea/markdown-navigator/
+.idea/misc.xml
+.idea/modules.xml
+.idea/workspace.xml
+sparktest.iml
+src/main/resources/
+src/test/
+target/
