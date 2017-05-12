@@ -3,7 +3,6 @@ package ch.sebooom.openshift.sparktest.services;
 import ch.sebooom.openshift.sparktest.models.Element;
 import com.google.gson.Gson;
 import com.mongodb.*;
-import com.sun.xml.internal.bind.v2.TODO;
 import org.bson.types.ObjectId;
 
 import java.util.ArrayList;
@@ -33,7 +32,6 @@ public class ElementService {
 
     public void createNewElement(String body) {
 
-        System.out.print(body);
 
         Element el = new Gson().fromJson(body, Element.class);
         collection.insert(new BasicDBObject("name", el.name()).append("description", el.description()));
