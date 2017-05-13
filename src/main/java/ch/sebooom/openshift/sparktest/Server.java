@@ -21,7 +21,6 @@ public class Server {
 
         ipAddress(IP_ADDRESS);
         port(PORT);
-
         staticFileLocation("/public");
 
         new ServerTestResource();
